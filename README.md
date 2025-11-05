@@ -343,7 +343,7 @@ See [LICENSE](LICENSE) for details.
 
 **Where Structure Meets Discovery**
 
-[![GitHub stars](https://img.shields.io/github/stars/AyehBlk/BondForge?style=social)](https://github.com/AyehBlk/BondForge)
+[![GitHub stars]([https://img.shields.io/github/stars/AyehBlk/BondForge?style=social)](https://github.com/AyehBlk/BondForge-Forging-Insights-from-Chemical-Bonds-)]
 [![LinkedIn Follow](https://www.linkedin.com/in/ayehbolouki/)]
 
 "Need help with your analysis? Contact me for consulting: ayehbolouki1988@gmail.com or ayehgeek@gmail.com"
