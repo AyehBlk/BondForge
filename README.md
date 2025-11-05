@@ -1,6 +1,7 @@
 # 🔥 BondForge
 ### *Forging Insights from Chemical Bonds*
 
+[![DOI](https://zenodo.org/badge/1090314769.svg)](https://doi.org/10.5281/zenodo.17534531)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![BioPython](https://img.shields.io/badge/BioPython-Required-green.svg)](https://biopython.org/)
@@ -296,17 +297,21 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## 📝 Citation
 
-If BondForge helped forge insights in your research:
+If BondForge helped forge insights in your research, please cite:
 
 ```bibtex
-@software{bondforge,
-  title = {BondForge: Forging Insights from Chemical Bonds},
-  author = {AyehBlk},
-  year = {2025},
-  url = {https://github.com/AyehBlk/BondForge},
-  note = {Comprehensive protein interaction analysis toolkit}
+@software{bondforge2025,
+  author       = {Ayeh Bolouki},
+  title        = {BondForge: Forging Insights from Chemical Bonds},
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.17534531},
+  url          = {https://doi.org/10.5281/zenodo.17534531}
 }
 ```
+
+**DOI:** [10.5281/zenodo.17534531](https://doi.org/10.5281/zenodo.17534531)
 
 ---
 
@@ -330,8 +335,8 @@ See [LICENSE](LICENSE) for details.
 
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/AyehBlk/BondForge/discussions)
 - 🐛 **Issues**: [GitHub Issues](https://github.com/AyehBlk/BondForge/issues)
-- 📧 **Email**: ayehbolouki1988@gmail.com or ayehgeek@gmail.com
-- 🐦 **LinkedIn**: (https://www.linkedin.com/in/ayehbolouki/)
+- 📧 **Email**: ayehbolouki1988@gmail.com
+- 🔗 **LinkedIn**: [Ayeh Bolouki](https://www.linkedin.com/in/ayehbolouki/)
 
 ---
 
@@ -343,12 +348,22 @@ See [LICENSE](LICENSE) for details.
 
 **Where Structure Meets Discovery**
 
-[![GitHub stars]([https://img.shields.io/github/stars/AyehBlk/BondForge?style=social)](https://github.com/AyehBlk/BondForge-Forging-Insights-from-Chemical-Bonds-)]
-[![LinkedIn Follow](https://www.linkedin.com/in/ayehbolouki/)]
+[![GitHub stars](https://github/stars/AyehBlk/BondForge)](https://github.com/AyehBlk/)
 
-**Need help with your analysis? Contact me for consulting: ayehbolouki1988@gmail.com or ayehgeek@gmail.com**
+---
 
-**Need a custom feature? I can add it! Contact: ayehbolouki1988@gmail.com or ayehgeek@gmail.com**
+### 🤝 Professional Services
+
+**Need help with your protein analysis?**
+
+I offer:
+- 🔬 Custom analysis and consulting
+- 🎓 Training and workshops  
+- 🔧 Feature development
+- 💡 Research collaboration
+
+**Contact:** ayehbolouki1988@gmail.com
+
 ---
 
 **Made with 🔥 by the structural biology community, for the community**
