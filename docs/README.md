@@ -2,7 +2,7 @@
 
 Complete documentation for the Protein Chemical Interaction Analysis Software.
 
-## 📚 Documentation Files
+##  Documentation Files
 
 ### Algorithm Specifications
 
@@ -83,7 +83,7 @@ Includes:
 - Key findings from each paper
 - How each reference informed the algorithms
 
-## 📖 Reading Guide
+##  Reading Guide
 
 ### For Beginners
 
@@ -114,7 +114,7 @@ Includes:
 2. [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) - Features and capabilities
 3. API documentation in source files
 
-## 🔬 Scientific Rigor
+##  Scientific Rigor
 
 All algorithms are based on:
 - Peer-reviewed literature
@@ -124,7 +124,7 @@ All algorithms are based on:
 
 See [LITERATURE_REFERENCES.md](LITERATURE_REFERENCES.md) for complete citations.
 
-## 💡 Quick Reference
+##  Quick Reference
 
 ### Detection Criteria Summary
 
@@ -140,7 +140,7 @@ See [LITERATURE_REFERENCES.md](LITERATURE_REFERENCES.md) for complete citations.
 
 See documentation files for complete details on all 20 interaction types.
 
-## 📊 Algorithm Components
+##  Algorithm Components
 
 ### Core Components
 
@@ -181,7 +181,7 @@ See documentation files for complete details on all 20 interaction types.
    - Residue connectivity
    - Spatial distribution
 
-## 🛠️ Customization
+##  Customization
 
 All algorithms support customizable parameters:
 
@@ -200,7 +200,7 @@ hydrophobic = analyzer.find_hydrophobic_interactions(
 
 See [README_IMPLEMENTATION.md](README_IMPLEMENTATION.md) for all parameters.
 
-## 📝 Citation Format
+##  Citation Format
 
 When citing this software in publications, use:
 
@@ -215,7 +215,7 @@ When citing this software in publications, use:
 
 For specific algorithms, cite the relevant papers in [LITERATURE_REFERENCES.md](LITERATURE_REFERENCES.md).
 
-## 🤝 Contributing to Documentation
+##  Contributing to Documentation
 
 Found an error or want to improve the documentation?
 
@@ -225,14 +225,14 @@ Found an error or want to improve the documentation?
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
-## 📞 Questions?
+##  Questions?
 
 - **General questions**: Open a [discussion](https://github.com/AyehBlk/BondForge/discussions)
 - **Bug reports**: Open an [issue](https://github.com/AyehBlk/BondForge/issues)
 - **Algorithm questions**: See [LITERATURE_REFERENCES.md](LITERATURE_REFERENCES.md)
 - **Implementation help**: See [README_IMPLEMENTATION.md](README_IMPLEMENTATION.md)
 
-## 🗂️ Related Resources
+##  Related Resources
 
 ### External Documentation
 - [BioPython Tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
