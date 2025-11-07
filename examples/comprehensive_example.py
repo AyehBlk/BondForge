@@ -31,7 +31,7 @@ def example_core_analyzer(pdb_file):
     Demonstrate the core forge with 7 interaction types.
     """
     print("\n" + "="*70)
-    print("🔥 BONDFORGE - CORE FORGE")
+    print(" BONDFORGE - CORE FORGE")
     print("7 Fundamental Interaction Types")
     print("="*70)
     
@@ -99,7 +99,7 @@ def example_extended_analyzer(pdb_file):
     Demonstrate the master forge with all 20 interaction types.
     """
     print("\n" + "="*70)
-    print("⚒️ BONDFORGE - MASTER FORGE")
+    print(" BONDFORGE - MASTER FORGE")
     print("All 20 Interaction Types - Complete Analysis")
     print("="*70)
     
@@ -107,7 +107,7 @@ def example_extended_analyzer(pdb_file):
     analyzer = ExtendedProteinInteractionAnalyzer(pdb_file)
     
     # Forge complete analysis
-    print("\n🔥 Forging all 20 interaction types...")
+    print("\n Forging all 20 interaction types...")
     results = analyzer.analyze_all_interactions()
     
     # Display summary
@@ -232,7 +232,7 @@ def main():
     Main function to run all BondForge examples.
     """
     print("\n" + "="*70)
-    print(" 🔥 BONDFORGE - COMPREHENSIVE DEMO")
+    print("  BONDFORGE - COMPREHENSIVE DEMO")
     print(" Forging Insights from Chemical Bonds")
     print("="*70)
     
@@ -269,19 +269,19 @@ def main():
         
         # Final summary
         print("\n" + "="*70)
-        print(" 🔥 FORGING COMPLETE!")
+        print("  FORGING COMPLETE!")
         print("="*70)
-        print("\n✨ Forged files:")
+        print("\n Forged files:")
         print("   - core_interactions.csv        (Core forge: 7 types)")
         print("   - extended_interactions.csv    (Master forge: 20 types)")
         print("   - interaction_network.png      (Network visualization)")
         print("   - visualize_interactions.pml   (PyMOL script)")
-        print("\n⚒️ Next steps:")
+        print("\n Next steps:")
         print("   1. Open CSV files in Excel for detailed analysis")
         print("   2. View network plot for interaction overview")
         print("   3. Use PyMOL script for 3D structure visualization")
         print("   4. Integrate BondForge into your own scripts")
-        print("\n🔥 Keep forging insights from chemical bonds!")
+        print("\n Keep forging insights from chemical bonds!")
         
     except Exception as e:
         print(f"\nError during analysis: {e}")
