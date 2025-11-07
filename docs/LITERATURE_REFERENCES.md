@@ -240,7 +240,7 @@
 
 ---
 
-## 🔬 Additional Important Reviews
+##  Additional Important Reviews
 
 ### General Protein Interactions
 - Nemethy, G., Scheraga, H. A. (1962). "Structure of Water and Hydrophobic Bonding in Proteins." *Journal of Chemical Physics*, 36(12), 3382-3417.
