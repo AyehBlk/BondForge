@@ -104,7 +104,7 @@ print(" Results forged and ready!")
 
 ##  Why BondForge?
 
-### 🔥 Power
+###  Power
 - **20 Interaction Types** - Most comprehensive toolkit available
 - **Network Analysis** - Graph-based structural insights
 - **Energy Calculations** - Quantitative measurements
@@ -234,7 +234,7 @@ pandas >= 1.1.0
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
