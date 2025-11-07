@@ -3,7 +3,7 @@
 
 ---
 
-## 📚 Primary References by Interaction Type
+##  Primary References by Interaction Type
 
 ### 1. HYDROGEN BONDS
 **Key Papers:**
@@ -216,7 +216,7 @@
 
 ---
 
-## 📊 Comprehensive Comparison Table
+##  Comprehensive Comparison Table
 
 | Interaction Type | Distance (Å) | Angle | Energy (kcal/mol) | Frequency* | Specificity |
 |-----------------|--------------|-------|-------------------|------------|-------------|
@@ -282,7 +282,7 @@
 
 ---
 
-## 🌐 Useful Databases and Tools
+##  Useful Databases and Tools
 
 ### For Validation:
 - **PDBsum** - http://www.ebi.ac.uk/pdbsum/
@@ -306,7 +306,7 @@
 
 ---
 
-## 📝 Citation Format
+##  Citation Format
 
 When citing this work, please reference the original papers above appropriate for your interaction types of interest.
 
@@ -321,7 +321,7 @@ metal coordination (Harding, 2001), and other non-covalent interactions.
 
 ---
 
-## 🎓 How to Use These References
+##  How to Use These References
 
 ### For Algorithm Development:
 1. Start with the "Key Papers" for each interaction type
