@@ -266,7 +266,7 @@
 
 ---
 
-## 📖 Essential Textbooks
+##  Essential Textbooks
 
 1. **"Structural Bioinformatics"** - Bourne, P. E., & Gu, J. (Eds.). (2009). Wiley-Blackwell.
    - Comprehensive coverage of protein structure
