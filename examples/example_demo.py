@@ -10,7 +10,7 @@ Shows basic usage of the core analyzer (7 interaction types).
 Usage:
     python example_demo.py path/to/protein.pdb
 
-Author: BondForge Team
+Author: Ayeh Bolouki
 Date: 2025
 """
 
