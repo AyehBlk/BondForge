@@ -11,8 +11,8 @@ Modules:
 """
 
 __version__ = '1.0.0'
-__author__ = 'Your Name'
-__email__ = 'your.email@example.com'
+__author__ = 'Ayeh Bolouki'
+__email__ = 'ayehbolouki1988@gmail.com'
 __package_name__ = 'BondForge'
 __tagline__ = 'Forging Insights from Chemical Bonds'
 
