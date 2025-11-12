@@ -1,0 +1,244 @@
+BondForge v2.0.0 - Complete Directory Structure
+================================================
+
+.
+├── .github/
+│   └── workflows/
+│       ├── ci.yml                              # Continuous integration
+│       ├── publish.yml                         # PyPI publishing
+│       └── tests.yml                           # Automated testing
+│
+├── .gitignore                                  # Git ignore patterns
+├── LICENSE                                     # MIT License
+├── MANIFEST.in                                 # Package manifest
+├── README.md                                   # Main project README
+├── CHANGELOG.md                                # Version history (NEW in v2.0.0)
+├── CONTRIBUTING.md                             # Contribution guidelines
+├── QUICKSTART.md                               # Quick start guide (UPDATED)
+├── requirements.txt                            # Python dependencies
+├── setup.py                                    # Basic installation script
+├── setup_upgraded.py                           # Enhanced setup (NEW in v2.0.0)
+├── bondforge_default.yaml                      # Default configuration (NEW)
+├── .bondforge.example.yaml                     # Example config (NEW)
+│
+├── src/                                        # Main source directory
+│   └── bondforge/                              # Package directory
+│       ├── __init__.py                         # Package initialization (UPDATED)
+│       ├── interaction_analyzer.py             # Core analyzer (7 types)
+│       ├── extended_interaction_analyzer.py    # Master forge (20 types)
+│       ├── interaction_visualizer.py           # Visualization module
+│       ├── cli.py                              # CLI interface (NEW in v2.0.0) ⭐
+│       ├── bondforge_cli.py                    # CLI alternative name (NEW) ⭐
+│       ├── config.py                           # Configuration system (NEW) ⭐
+│       ├── energy_calculator.py                # Advanced energy (NEW) ⭐
+│       ├── statistical_validator.py            # Statistical tools (NEW) ⭐
+│       ├── advanced_energy_calculations.py     # Extended energy (NEW) ⭐
+│       │
+│       ├── data/                               # Package data files (NEW)
+│       │   ├── force_fields/                   # Force field parameters
+│       │   │   ├── amber.dat
+│       │   │   ├── charmm.dat
+│       │   │   └── opls.dat
+│       │   ├── statistics/                     # PDB statistics
+│       │   │   ├── pdb_hbond_stats.json
+│       │   │   ├── pdb_salt_bridge_stats.json
+│       │   │   └── interaction_frequencies.csv
+│       │   └── config_defaults.yaml            # Default parameters
+│       │
+│       ├── templates/                          # Output templates (NEW)
+│       │   ├── pymol_visualization.pml
+│       │   ├── report_template.txt
+│       │   └── summary_template.txt
+│       │
+│       └── utils/                              # Utility modules (NEW)
+│           ├── __init__.py
+│           ├── geometry.py                     # Geometric calculations
+│           ├── spatial_index.py                # KD-tree indexing
+│           └── parallel.py                     # Parallel processing
+│
+├── docs/                                       # Documentation
+│   ├── README.md                               # Documentation index
+│   ├── INSTALLATION.md                         # Installation guide (NEW)
+│   ├── QUICKSTART.md                           # Getting started (NEW)
+│   ├── CLI_REFERENCE.md                        # CLI commands (NEW in v2.0.0) ⭐
+│   ├── API_REFERENCE.md                        # API documentation (UPDATED)
+│   ├── CONFIGURATION.md                        # Config guide (NEW in v2.0.0) ⭐
+│   ├── PERFORMANCE.md                          # Performance tuning (NEW) ⭐
+│   ├── INTERACTION_TYPES.md                    # Interaction catalog (UPDATED)
+│   ├── ENERGY_CALCULATIONS.md                  # Energy methods (NEW) ⭐
+│   ├── STATISTICAL_VALIDATION.md               # Statistics guide (NEW) ⭐
+│   ├── VISUALIZATION.md                        # Visualization guide
+│   ├── BATCH_PROCESSING.md                     # Batch analysis (NEW) ⭐
+│   ├── INTERACTION_ALGORITHMS_DESIGN.md        # Algorithm details
+│   ├── EXTENDED_INTERACTIONS_ALGORITHMS.md     # Extended algorithms
+│   ├── LITERATURE_REFERENCES.md                # Scientific references (UPDATED)
+│   ├── PROJECT_SUMMARY.md                      # Project overview
+│   ├── MIGRATION_GUIDE.md                      # v1 to v2 migration (NEW)
+│   │
+│   ├── examples/                               # Documentation examples
+│   │   ├── basic_usage.md
+│   │   ├── advanced_usage.md
+│   │   ├── cli_examples.md                     # CLI examples (NEW)
+│   │   └── configuration_examples.md           # Config examples (NEW)
+│   │
+│   └── developer/                              # Developer documentation
+│       ├── ARCHITECTURE.md                     # System architecture (NEW)
+│       ├── CONTRIBUTING.md                     # Development guide
+│       ├── TESTING.md                          # Testing guide (NEW)
+│       └── API_DESIGN.md                       # API design principles
+│
+├── examples/                                   # Usage examples
+│   ├── README.md                               # Examples index
+│   ├── basic_forge.py                          # Simple analysis
+│   ├── comprehensive_example.py                # Advanced techniques
+│   ├── example_demo.py                         # Demo script
+│   ├── cli_examples.sh                         # CLI examples (NEW) ⭐
+│   ├── batch_processing.py                     # Batch analysis (NEW) ⭐
+│   ├── custom_config.py                        # Configuration example (NEW)
+│   ├── energy_analysis.py                      # Energy calculations (NEW)
+│   ├── statistical_validation.py               # Statistics example (NEW)
+│   ├── interface_analysis.py                   # Interface analysis
+│   ├── binding_site_analysis.py                # Binding site analysis
+│   ├── network_analysis.py                     # Network analysis
+│   │
+│   └── data/                                   # Example data
+│       ├── 1ABC.pdb                            # Example structure
+│       ├── complex.pdb                         # Multi-chain example
+│       └── binding_site.pdb                    # Ligand complex
+│
+├── tests/                                      # Test suite
+│   ├── README.md                               # Testing documentation
+│   ├── __init__.py                             # Test package init
+│   ├── conftest.py                             # Pytest configuration (NEW)
+│   │
+│   ├── unit/                                   # Unit tests (NEW structure)
+│   │   ├── __init__.py
+│   │   ├── test_interaction_analyzer.py
+│   │   ├── test_extended_analyzer.py
+│   │   ├── test_visualizer.py
+│   │   ├── test_cli.py                         # CLI tests (NEW)
+│   │   ├── test_config.py                      # Config tests (NEW)
+│   │   ├── test_energy_calculator.py           # Energy tests (NEW)
+│   │   ├── test_statistical_validator.py       # Statistics tests (NEW)
+│   │   ├── test_geometry.py
+│   │   └── test_utils.py
+│   │
+│   ├── integration/                            # Integration tests (NEW)
+│   │   ├── __init__.py
+│   │   ├── test_full_pipeline.py
+│   │   ├── test_batch_processing.py
+│   │   ├── test_cli_integration.py
+│   │   └── test_export.py
+│   │
+│   ├── performance/                            # Performance tests (NEW)
+│   │   ├── __init__.py
+│   │   ├── benchmark_large_structures.py
+│   │   └── profile_memory.py
+│   │
+│   ├── fixtures/                               # Test fixtures (NEW)
+│   │   ├── __init__.py
+│   │   ├── config_fixtures.yaml
+│   │   └── interaction_fixtures.json
+│   │
+│   └── data/                                   # Test data
+│       ├── test_structure.pdb
+│       ├── multi_chain.pdb
+│       ├── edge_cases.pdb
+│       └── known_interactions.json
+│
+├── scripts/                                    # Utility scripts (NEW)
+│   ├── validate_installation.py                # Installation check
+│   ├── benchmark.py                            # Performance benchmark
+│   ├── generate_docs.py                        # Documentation generator
+│   └── update_statistics.py                    # Update PDB statistics
+│
+├── tools/                                      # Development tools (NEW)
+│   ├── profiling/                              # Performance profiling
+│   │   ├── profile_analysis.py
+│   │   └── memory_profiler.py
+│   ├── validation/                             # Validation tools
+│   │   └── validate_against_pdb.py
+│   └── benchmarking/                           # Benchmarking tools
+│       └── compare_versions.py
+│
+└── .vscode/                                    # VSCode settings (optional)
+    ├── settings.json
+    ├── launch.json
+    └── extensions.json
+
+
+Summary Statistics (v2.0.0)
+============================
+
+Files by Type:
+- Python source files: ~25
+- Documentation files: ~20
+- Example scripts: ~12
+- Test files: ~15
+- Configuration files: ~8
+
+New in v2.0.0 (marked with ⭐):
+- 6 new core modules
+- Professional CLI interface
+- Configuration system
+- Advanced energy calculations
+- Statistical validation
+- Enhanced documentation (~10 new files)
+- Comprehensive test suite
+- Development tools and scripts
+
+Total Lines of Code (approximate):
+- Core modules: ~8,000 lines
+- CLI interface: ~1,500 lines
+- Tests: ~2,000 lines
+- Documentation: ~5,000 lines
+- Examples: ~1,200 lines
+
+Architecture Improvements:
+- Modular design with clear separation
+- Enhanced type hints throughout
+- Better error handling
+- Comprehensive logging
+- Parallel processing support
+- Spatial indexing for performance
+- Hierarchical configuration
+
+
+Quick Navigation
+================
+
+Key Files for Users:
+- README.md                    # Start here
+- QUICKSTART.md                # Get started quickly
+- docs/CLI_REFERENCE.md        # CLI commands
+- examples/                    # Code examples
+
+Key Files for Developers:
+- CONTRIBUTING.md              # How to contribute
+- docs/developer/              # Developer docs
+- tests/                       # Test suite
+- src/bondforge/               # Source code
+
+Key Files for Scientists:
+- docs/INTERACTION_TYPES.md    # Interaction catalog
+- docs/LITERATURE_REFERENCES.md # Scientific basis
+- docs/ENERGY_CALCULATIONS.md  # Energy methods
+
+
+Installation Targets
+====================
+
+Minimal Install:
+- Core modules only
+- Basic dependencies
+- ~50 MB
+
+Standard Install:
+- Core + CLI + visualization
+- All standard dependencies
+- ~120 MB
+
+Full Install:
+- All features + development tools
+- All dependencies + optional packages
+- ~250 MB

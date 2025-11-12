@@ -1,0 +1,188 @@
+# BondForge v2.0.0 - Package Manifest
+# ====================================
+# 
+# This file specifies which non-Python files should be included
+# when building the BondForge package distribution.
+
+# ============================================================================
+# Documentation Files
+# ============================================================================
+
+# Root documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include QUICKSTART.md
+
+# Comprehensive docs folder
+recursive-include docs *.md
+recursive-include docs *.rst
+recursive-include docs *.txt
+recursive-include docs *.png
+recursive-include docs *.jpg
+recursive-include docs *.svg
+
+# Exclude build artifacts
+exclude docs/_build
+exclude docs/_static
+exclude docs/_templates
+
+# ============================================================================
+# Configuration Files
+# ============================================================================
+
+# Requirements
+include requirements.txt
+include setup.py
+include setup_upgraded.py
+
+# Configuration templates
+include bondforge_default.yaml
+include .bondforge.example.yaml
+
+# Package data
+recursive-include src/bondforge/data *.yaml
+recursive-include src/bondforge/data *.json
+recursive-include src/bondforge/templates *.txt
+recursive-include src/bondforge/templates *.pml
+
+# ============================================================================
+# Examples
+# ============================================================================
+
+# Example scripts
+recursive-include examples *.py
+recursive-include examples *.sh
+recursive-include examples *.md
+recursive-include examples *.yaml
+
+# Example data files (small test structures only)
+recursive-include examples/data *.pdb
+recursive-include examples/data *.cif
+recursive-include examples/data *.csv
+
+# ============================================================================
+# Tests
+# ============================================================================
+
+# Test files
+recursive-include tests *.py
+recursive-include tests *.md
+
+# Test data
+recursive-include tests/data *.pdb
+recursive-include tests/fixtures *.json
+recursive-include tests/fixtures *.yaml
+
+# ============================================================================
+# Source Package Files
+# ============================================================================
+
+# Include all Python source
+recursive-include src *.py
+
+# Include package metadata
+include src/bondforge/__init__.py
+include src/bondforge/py.typed
+
+# ============================================================================
+# Scripts and Tools
+# ============================================================================
+
+# CLI scripts
+include scripts/*.py
+include scripts/*.sh
+
+# Utility scripts
+recursive-include tools *.py
+
+# ============================================================================
+# CI/CD and Development
+# ============================================================================
+
+# GitHub workflows
+include .github/workflows/*.yml
+include .github/workflows/*.yaml
+
+# Pre-commit hooks
+include .pre-commit-config.yaml
+
+# ============================================================================
+# Reference Data
+# ============================================================================
+
+# Force field parameters
+recursive-include src/bondforge/data/force_fields *.dat
+recursive-include src/bondforge/data/force_fields *.prm
+
+# Statistical data
+recursive-include src/bondforge/data/statistics *.csv
+recursive-include src/bondforge/data/statistics *.json
+
+# ============================================================================
+# Exclude Patterns
+# ============================================================================
+
+# Exclude Python bytecode
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *$py.class
+
+# Exclude build artifacts
+global-exclude *.so
+global-exclude *.dylib
+global-exclude *.dll
+
+# Exclude development files
+global-exclude *.swp
+global-exclude *.swo
+global-exclude *~
+global-exclude .DS_Store
+global-exclude Thumbs.db
+
+# Exclude cache directories
+global-exclude .cache
+global-exclude .pytest_cache
+global-exclude .mypy_cache
+global-exclude .tox
+global-exclude __pycache__
+
+# Exclude IDE files
+global-exclude .vscode
+global-exclude .idea
+global-exclude *.sublime-*
+
+# Exclude logs and temporary files
+global-exclude *.log
+global-exclude *.tmp
+global-exclude *.bak
+global-exclude *.backup
+
+# Exclude output directories
+prune bondforge_results
+prune bondforge_output
+prune output
+prune results
+prune .bondforge_cache
+
+# Exclude large structure files
+global-exclude *.pdb1
+global-exclude *.mmcif
+global-exclude *.cif.gz
+global-exclude *.dcd
+global-exclude *.xtc
+global-exclude *.trr
+
+# ============================================================================
+# Notes
+# ============================================================================
+
+# To build source distribution:
+#   python setup.py sdist
+#
+# To build wheel:
+#   python setup.py bdist_wheel
+#
+# To check what's included:
+#   python setup.py sdist --list-only
